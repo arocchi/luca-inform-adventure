@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x1b157c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7</generator>
+  <activeNode nodeId="node-0x1b157c0"/>
+  <item nodeId="node-0x1b157c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">You wake up in your studio. You feel tired. Sun is coming from the window.
+
+Luca and the Inform Compiler
+Luca and the Inform Compiler by Alessio
+Release 3 / Serial number 100601 / Inform 7 build 5Z71 (I6/v6.31 lib 6/12N) SD
+
+Studio
+The studio is messed up, still quite clean. The only forniture in the room is a bed, and a table with a comfortable chair in front of it. There is a window on the north wall, and a door south.
+
+You can see a window, a door to the stairs, a bed, a table (on which are a manual and a laptop) and a chair here.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b15940"/>
+      <child nodeId="node-0x1b15dc0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b15940">
+    <command xml:space="preserve">read manual</command>
+    <result xml:space="preserve">Taking a look, you can see it is the Inform Manual. The headline says &quot;consult me about life and death&quot; You could probably look up anything in it! There seems to be no index though
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b15ac0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b15ac0">
+    <command xml:space="preserve">look up locked in manual</command>
+    <result xml:space="preserve">Flipping through the manual, you learn that you can perform an unlocking on an object by typing &quot;now the noun is unlocked&quot;. For example, to unlock a window, you can type &quot;now the window is unlocked&quot;. Remember to strip out the quotes, as this is a common error between newcomers
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+    <children>
+      <child nodeId="node-0x1b15c40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x1b15c40">
+    <command xml:space="preserve">look up how to get trough locked situations in manual</command>
+    <result xml:space="preserve">Flipping through the manual, you learn that you can perform an unlocking on an object by typing &quot;now the noun is unlocked&quot;. For example, to unlock a window, you can type &quot;now the window is unlocked&quot;. Remember to strip out the quotes, as this is a common error between newcomers
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+  <item nodeId="node-0x1b15dc0">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You get onto the chair.
+
+&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <annotation xml:space="preserve"></annotation>
+  </item>
+</Skein>

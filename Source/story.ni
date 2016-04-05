@@ -63,7 +63,7 @@ It is not fixed in place.
 It is portable.
 Instead of throwing the chair at the window:
 	say "You try to launch the chair with all your strenght against the window. In the instant it touches the glass, the room gets completely dark";
-	end the game in death.
+	end the story saying "l".
 
 
 Section 3 - The Manual
@@ -107,7 +107,7 @@ Instead of taking the laptop:
 		say "The computer is charging. Unplug it first.".
 Instead of unplugging the laptop:
 	say "As you unplug the laptop, everything becomes dark.";
-	end the game in death.
+	end the story saying "l".
 
 Table of Available Laptop Commands
 topic	article
@@ -181,6 +181,6 @@ Chapter 2 - The Balcony
 
 The Balcony is north of the window. "A white void fills everywhere. As your brain freezes your eyes panic searching for something, anything. You fall on the ground, feeling the sound of your breath in the absolute silence."
 
-Every turn when in the Balcony:
-	end the game in victory.
+After entering the Balcony:
+	end the story saying "w".
 	

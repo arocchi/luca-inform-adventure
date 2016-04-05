@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0xf9b7c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x11ee720" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7</generator>
-  <activeNode nodeId="node-0xf9b7c0"/>
-  <item nodeId="node-0xf9b7c0">
+  <activeNode nodeId="node-0x11ee720"/>
+  <item nodeId="node-0x11ee720">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,15 +21,15 @@ You can see a window, a door to the stairs, a bed, a table (on which are a manua
 &gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">NO</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf9b940"/>
-      <child nodeId="node-0xf9bdc0"/>
+      <child nodeId="node-0x11ee8a0"/>
+      <child nodeId="node-0x11eed20"/>
     </children>
   </item>
-  <item nodeId="node-0xf9b940">
+  <item nodeId="node-0x11ee8a0">
     <command xml:space="preserve">read manual</command>
     <result xml:space="preserve">Taking a look, you can see it is the Inform Manual. The headline says &quot;consult me about life and death&quot; You could probably look up anything in it! There seems to be no index though
 
@@ -40,10 +40,10 @@ You can see a window, a door to the stairs, a bed, a table (on which are a manua
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf9bac0"/>
+      <child nodeId="node-0x11eea20"/>
     </children>
   </item>
-  <item nodeId="node-0xf9bac0">
+  <item nodeId="node-0x11eea20">
     <command xml:space="preserve">look up locked in manual</command>
     <result xml:space="preserve">Flipping through the manual, you learn that you can perform an unlocking on an object by typing &quot;now the noun is unlocked&quot;. For example, to unlock a window, you can type &quot;now the window is unlocked&quot;. Remember to strip out the quotes, as this is a common error between newcomers
 
@@ -54,10 +54,10 @@ You can see a window, a door to the stairs, a bed, a table (on which are a manua
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
     <children>
-      <child nodeId="node-0xf9bc40"/>
+      <child nodeId="node-0x11eeba0"/>
     </children>
   </item>
-  <item nodeId="node-0xf9bc40">
+  <item nodeId="node-0x11eeba0">
     <command xml:space="preserve">look up how to get trough locked situations in manual</command>
     <result xml:space="preserve">Flipping through the manual, you learn that you can perform an unlocking on an object by typing &quot;now the noun is unlocked&quot;. For example, to unlock a window, you can type &quot;now the window is unlocked&quot;. Remember to strip out the quotes, as this is a common error between newcomers
 
@@ -68,7 +68,7 @@ You can see a window, a door to the stairs, a bed, a table (on which are a manua
     <temporary score="0">YES</temporary>
     <annotation xml:space="preserve"></annotation>
   </item>
-  <item nodeId="node-0xf9bdc0">
+  <item nodeId="node-0x11eed20">
     <command xml:space="preserve">sit on chair</command>
     <result xml:space="preserve">You get onto the chair.
 
